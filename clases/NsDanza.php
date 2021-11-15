@@ -1,7 +1,7 @@
 <?php
 
 namespace NsDanza;
-class Actividad{
+class Actividad {
     private $id;
     private $descripcion;
     private $fecha;
@@ -42,6 +42,8 @@ class Actividad{
         return "La actividad $this->descripcion se realizara en: $this->lugar el: $this->fecha";
     }
 }
+
+
 
 
 ?>
